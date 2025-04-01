@@ -1,0 +1,6 @@
+## Entwicklungsregeln
+- Zusammenhängende Fehleranalyse (siehe Fehleranalyse)
+- ToDo-System: Neue Todos erfassen @TODO.md, Änderungen umsetzen, Änderungen prüfen in @start-app.sh, Nach User bestätigung Todo erledigt setzen @TODO.md
+- Versionsupdate pflegen für alle Änderungen @CHANGELOG.md
+- Erstelle immer vollständige Backups @backups
+- Fehleranalyse: Fehler dokumentieren in @solvings.md, Analyse starten, Informationen sammeln, Änderungsvorschlag dokumentieren in @solvings.md, Änderung besätigen lassen via Apply/Confirm, in @start-app.sh testen, Lösungsbestätigung vom "User" abwarten, Fehlerbehebung in @solvings.md hinterlegen, @solvings.md aktualisieren

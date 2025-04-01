@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System programs and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+backups/
+*.tar.gz
+*.backup
+*_backup_*
+
+
+# Vite cache
+.vite/
+
+# Test output
+test-output/
+
+# App PIDs
+.app_pids

@@ -1,0 +1,436 @@
+{
+  "todos": [
+    {
+      "id": "fedc842f-5f1b-40bb-b248-b6580e841cf2",
+      "title": "Frontend implementieren",
+      "description": "React/Electron UI für das ToDo-System erstellen - Start mit Mockups",
+      "dueDate": "2025-04-15",
+      "priority": "high",
+      "status": "in-progress",
+      "created": "2025-03-28T21:54:14.102Z",
+      "modified": "2025-03-28T21:54:55.405Z",
+      "version": 2,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T21:54:14.102Z",
+          "action": "created",
+          "changes": {
+            "title": "Frontend implementieren",
+            "description": "React/Electron UI für das ToDo-System erstellen",
+            "dueDate": "2025-04-15",
+            "priority": "high"
+          }
+        },
+        {
+          "version": 2,
+          "timestamp": "2025-03-28T21:54:55.405Z",
+          "action": "updated",
+          "changes": {
+            "status": "in-progress",
+            "description": "React/Electron UI für das ToDo-System erstellen - Start mit Mockups"
+          }
+        }
+      ],
+      "followUps": [
+        {
+          "id": "223b2ae5-3f9e-46cb-a08e-94857bd80a77",
+          "text": "UI-Mockups erstellen",
+          "timestamp": "2025-03-28T21:54:22.679Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "b49a45d3-f256-4167-bd77-cf2b675377c6",
+      "title": "Git-Repository Einrichtung",
+      "description": "Aus README importiert - Git-Repository Einrichtung",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.021Z",
+      "modified": "2025-03-28T22:00:03.021Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.021Z",
+          "action": "created",
+          "changes": {
+            "title": "Git-Repository Einrichtung",
+            "description": "Aus README importiert - Git-Repository Einrichtung",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "9509fedb-d37f-4fee-9c8c-25b80a7ffb1f",
+      "title": "MCP Server Konfiguration",
+      "description": "Aus README importiert - MCP Server Konfiguration",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.023Z",
+      "modified": "2025-03-28T22:00:03.023Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.023Z",
+          "action": "created",
+          "changes": {
+            "title": "MCP Server Konfiguration",
+            "description": "Aus README importiert - MCP Server Konfiguration",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "3188f437-2558-4340-b62c-e457fc368eb6",
+      "title": "ToDo-System mit Versionierung",
+      "description": "Aus README importiert - ToDo-System mit Versionierung",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.028Z",
+      "modified": "2025-03-28T22:00:03.028Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.028Z",
+          "action": "created",
+          "changes": {
+            "title": "ToDo-System mit Versionierung",
+            "description": "Aus README importiert - ToDo-System mit Versionierung",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "17adb98c-71b4-4d6f-9972-0099f3df52c6",
+      "title": "Basis-Frontend mit Electron/React",
+      "description": "Aus README importiert - Basis-Frontend mit Electron/React",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.030Z",
+      "modified": "2025-03-28T22:00:03.030Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.030Z",
+          "action": "created",
+          "changes": {
+            "title": "Basis-Frontend mit Electron/React",
+            "description": "Aus README importiert - Basis-Frontend mit Electron/React",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "e9590f8a-c7c0-48cc-ae43-82d03940eba3",
+      "title": "Chat-Interface",
+      "description": "Aus README importiert - Chat-Interface",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.032Z",
+      "modified": "2025-03-28T22:00:03.032Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.032Z",
+          "action": "created",
+          "changes": {
+            "title": "Chat-Interface",
+            "description": "Aus README importiert - Chat-Interface",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "1baa54f4-136d-453c-bd41-2a12e43af9d5",
+      "title": "OpenAI API Integration",
+      "description": "Aus README importiert - OpenAI API Integration",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.034Z",
+      "modified": "2025-03-28T22:00:03.034Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.034Z",
+          "action": "created",
+          "changes": {
+            "title": "OpenAI API Integration",
+            "description": "Aus README importiert - OpenAI API Integration",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "7f4f8703-9e3c-4034-b61b-01445fb3eb7f",
+      "title": "TTS-Integration",
+      "description": "Aus README importiert - TTS-Integration",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.035Z",
+      "modified": "2025-03-28T22:00:03.035Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.035Z",
+          "action": "created",
+          "changes": {
+            "title": "TTS-Integration",
+            "description": "Aus README importiert - TTS-Integration",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "2e41be67-a400-46ee-81ed-47d1b9c97396",
+      "title": "Memory-System Implementation",
+      "description": "Aus README importiert - Memory-System Implementation",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.036Z",
+      "modified": "2025-03-28T22:00:03.036Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.036Z",
+          "action": "created",
+          "changes": {
+            "title": "Memory-System Implementation",
+            "description": "Aus README importiert - Memory-System Implementation",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "a0db5715-0989-4494-89f6-25395cdc6ebc",
+      "title": "Whisper Spracherkennung",
+      "description": "Aus README importiert - Whisper Spracherkennung",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.038Z",
+      "modified": "2025-03-28T22:00:03.038Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.038Z",
+          "action": "created",
+          "changes": {
+            "title": "Whisper Spracherkennung",
+            "description": "Aus README importiert - Whisper Spracherkennung",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "09683796-54f9-4188-a02f-eb26b1e73216",
+      "title": "Avatar-Integration mit SadTalker",
+      "description": "Aus README importiert - Avatar-Integration mit SadTalker",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.039Z",
+      "modified": "2025-03-28T22:00:03.039Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.039Z",
+          "action": "created",
+          "changes": {
+            "title": "Avatar-Integration mit SadTalker",
+            "description": "Aus README importiert - Avatar-Integration mit SadTalker",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "c67c356b-4cab-4bb0-8ac2-e36b60e8ebf9",
+      "title": "Charakter-Preset System",
+      "description": "Aus README importiert - Charakter-Preset System",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.041Z",
+      "modified": "2025-03-28T22:00:03.041Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.041Z",
+          "action": "created",
+          "changes": {
+            "title": "Charakter-Preset System",
+            "description": "Aus README importiert - Charakter-Preset System",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "dba989d0-9bcb-4654-be2b-7f06720accad",
+      "title": "Trigger-System",
+      "description": "Aus README importiert - Trigger-System",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.042Z",
+      "modified": "2025-03-28T22:00:03.042Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.042Z",
+          "action": "created",
+          "changes": {
+            "title": "Trigger-System",
+            "description": "Aus README importiert - Trigger-System",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "218ff449-5935-4b6e-9bbe-a60e0916c53f",
+      "title": "Logging & Debugging System",
+      "description": "Aus README importiert - Logging & Debugging System",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.043Z",
+      "modified": "2025-03-28T22:00:03.044Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.044Z",
+          "action": "created",
+          "changes": {
+            "title": "Logging & Debugging System",
+            "description": "Aus README importiert - Logging & Debugging System",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "1dabc76d-a7e8-463f-9ecb-c2d0bd90d0fa",
+      "title": "Performance-Optimierung",
+      "description": "Aus README importiert - Performance-Optimierung",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.045Z",
+      "modified": "2025-03-28T22:00:03.045Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.045Z",
+          "action": "created",
+          "changes": {
+            "title": "Performance-Optimierung",
+            "description": "Aus README importiert - Performance-Optimierung",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "677457ab-e597-4794-ba0d-4ebde310b909",
+      "title": "Fehlerbehandlung",
+      "description": "Aus README importiert - Fehlerbehandlung",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.046Z",
+      "modified": "2025-03-28T22:00:03.046Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.046Z",
+          "action": "created",
+          "changes": {
+            "title": "Fehlerbehandlung",
+            "description": "Aus README importiert - Fehlerbehandlung",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "2c716aff-085a-4073-81b7-00a19cd02880",
+      "title": "Tests",
+      "description": "Aus README importiert - Tests",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:00:03.047Z",
+      "modified": "2025-03-28T22:00:03.047Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:00:03.047Z",
+          "action": "created",
+          "changes": {
+            "title": "Tests",
+            "description": "Aus README importiert - Tests",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "id": "73809f38-fc21-4569-8e94-b2d1d5b8764f",
+      "title": "Hintergrundbild und -musik im Loop",
+      "description": "Aus README importiert - Hintergrundbild und -musik im Loop",
+      "priority": "medium",
+      "status": "pending",
+      "created": "2025-03-28T22:33:09.866Z",
+      "modified": "2025-03-28T22:33:09.866Z",
+      "version": 1,
+      "history": [
+        {
+          "version": 1,
+          "timestamp": "2025-03-28T22:33:09.866Z",
+          "action": "created",
+          "changes": {
+            "title": "Hintergrundbild und -musik im Loop",
+            "description": "Aus README importiert - Hintergrundbild und -musik im Loop",
+            "priority": "medium"
+          }
+        }
+      ],
+      "followUps": []
+    }
+  ]
+}

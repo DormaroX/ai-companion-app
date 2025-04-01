@@ -1,0 +1,114 @@
+/* 
+ * Glassmorphism.css
+ * 
+ * Futuristischer, sinnlicher, leicht holografischer Stil – wie ein Interface auf der Titan-4.
+ * Enthält CSS-Utilities für den App-weiten Glassmorphism + 3D Light Design-Stil.
+ */
+
+/* Base glassmorphism effect */
+.glassmorphic {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+/* Character-specific glow effects */
+.glow-maxx {
+  box-shadow: 0 0 12px rgba(173, 216, 230, 0.3);
+}
+
+.glow-terra {
+  box-shadow: 0 0 15px rgba(0, 255, 128, 0.2);
+}
+
+.glow-nova {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+}
+
+.glow-nyxari {
+  box-shadow: 0 0 18px rgba(186, 85, 211, 0.3);
+}
+
+/* Hover effects */
+.hover-scale:hover {
+  transform: scale(1.01);
+}
+
+/* Glitch effect for Nyxari */
+.border-glitch {
+  animation: glitch 1s infinite;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 3D Light effects */
+.light-edge {
+  position: relative;
+}
+
+.light-edge::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    rgba(255, 255, 255, 0.05) 15%, 
+    rgba(255, 255, 255, 0) 50%, 
+    rgba(255, 255, 255, 0.05) 85%, 
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+/* Holographic accent */
+.holographic-accent {
+  position: relative;
+  overflow: hidden;
+}
+
+.holographic-accent::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  pointer-events: none;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 25%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 200%;
+  animation: shimmer 3s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(-2px, -1px); }
+  60% { transform: translate(1px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .glassmorphic {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}

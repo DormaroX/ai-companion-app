@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Space+Mono&display=swap');
+
+:root {
+  /* Basis-Farben */
+  --color-background: #1A1A1A;
+  --color-surface: #2D2D2D;
+  --color-text: #FFFFFF;
+  
+  /* Akzentfarben für verschiedene Charaktere */
+  --color-terra: #8B0000;
+  --color-nova: #9B4F96;
+  --color-aether: #00CED1;
+  
+  /* UI-Elemente */
+  --color-border: #404040;
+  --color-input: #333333;
+  --color-hover: #4A4A4A;
+
+  /* Animationsgeschwindigkeiten */
+  --animation-speed-fast: 0.2s;
+  --animation-speed-normal: 0.3s;
+  --animation-speed-slow: 0.5s;
+
+  /* Abstände */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Schatten */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Globale Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Typografie */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+code, pre {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Scrollbar-Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hover);
+}
+
+/* Electron Window Controls */
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Utility-Klassen */
+.glass {
+  background: rgba(45, 45, 45, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Charakter-spezifische Styles */
+.terra-theme {
+  --character-primary: var(--color-terra);
+  --character-gradient: linear-gradient(135deg, var(--color-terra) 0%, #FF4D4D 100%);
+}
+
+.nova-theme {
+  --character-primary: var(--color-nova);
+  --character-gradient: linear-gradient(135deg, var(--color-nova) 0%, #D896FF 100%);
+}
+
+.aether-theme {
+  --character-primary: var(--color-aether);
+  --character-gradient: linear-gradient(135deg, var(--color-aether) 0%, #00FFFF 100%);
+}
+
+/* Animationen */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #90caf9, #ce93d8);
+  background-size: 200% 200%;
+  animation: gradientBG 15s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.nova-accent {
+  color: #9B4F96;
+}
+
+.nyxari-accent {
+  color: #00CED1;
+}
